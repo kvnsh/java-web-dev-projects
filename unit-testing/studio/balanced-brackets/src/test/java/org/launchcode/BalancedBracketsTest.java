@@ -59,6 +59,10 @@ class BalancedBracketsTest {
         String test = "][";
         assertTrue(BalancedBrackets.hasBalancedBrackets(test));
     }
-
+    @Test
+    public void stringWithNotBalanceBracketsCase5() {
+        String test = "][][";
+        assertTrue(BalancedBrackets.hasBalancedBrackets(test));
+    }
 
 }
