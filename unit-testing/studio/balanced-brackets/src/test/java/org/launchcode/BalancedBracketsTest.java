@@ -18,12 +18,12 @@ class BalancedBracketsTest {
         assertTrue(BalancedBrackets.hasBalancedBrackets("[]"));
     }
 
+
     @Test
     public void stringWithBalanceBracketsCase1() {
         String test = "[LaunchCode]";
         assertTrue(BalancedBrackets.hasBalancedBrackets(test));
     }
-
     @Test
     public void stringWithBalanceBracketsCase2() {
         String test = "Launch[Code]";
